@@ -42,7 +42,7 @@ jobs:
           NUMBER: ${{ secrets.NUMBER }}
           PASSPORT_NUMBER: ${{ secrets.PASSPORT_NUMBER }}
           SURNAME: ${{ secrets.SURNAME }}
-          TIMEZONE: ${{ secrets.TIMEZONE }}
+          # TIMEZONE: ${{ secrets.TIMEZONE }}
           FROM: ${{ secrets.FROM }}
           TO: ${{ secrets.TO }}
           PASSWORD: ${{ secrets.PASSWORD }}
