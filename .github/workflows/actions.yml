@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
+    - cron: '20 * * * *' # Runs at 20min past every hour (avoid too many jobs run at 0)
 
 jobs:
   build:
